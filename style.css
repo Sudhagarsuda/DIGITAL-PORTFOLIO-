@@ -1,0 +1,123 @@
+/* General page style */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f4f9;
+
+    color: #333;
+
+}
+
+/* Header style */
+
+header {
+
+    background: #0077cc;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+/* Sections */
+
+section {
+
+    padding: 20px;
+
+    margin: 10px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+
+}
+
+/* About Me */
+
+#about img {
+
+    width: 200px;
+
+    border-radius: 50%;
+
+    display: block;
+
+    margin: 10px auto;
+
+}
+
+/* Form */
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 400px;
+
+}
+
+form input, form textarea {
+
+    padding: 10px;
+
+    margin: 5px 0;
+
+    border: 1px solid #777;
+
+    border-radius: 5px;
+
+}
+
+form button {
+
+    background: #0077cc;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+form button:hover {
+
+    background: #005fa3;
+
+}
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 10px;
+
+    background: #0077cc;
+
+    color: white;
+
+    margin-top: 20px;
+
+}
